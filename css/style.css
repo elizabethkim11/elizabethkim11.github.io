@@ -273,9 +273,7 @@ section:not(.abt) {
     * {
         margin: 0px;
         width: fit-content;
-    }
-    .abt {
-        display: inline flex;
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
     }
 }
