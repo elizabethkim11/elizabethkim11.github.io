@@ -275,6 +275,7 @@ section:not(.abt) {
         width: fit-content;
     }
     .abt {
-        margin-left: -10% !important;
+        display: inline flex;
+        flex-direction: column;
     }
 }
