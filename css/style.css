@@ -72,11 +72,11 @@ section:not(.abt) {
     margin-top: -3rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .exp-text h1 {
     font-size: var(--big-font);
@@ -96,11 +96,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .proj-text h1 {
     font-size: var(--big-font);
@@ -120,11 +120,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .skills-text h1 {
     font-size: var(--big-font);
@@ -145,11 +145,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .edu-text h1 {
     font-size: var(--big-font);
@@ -170,11 +170,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .coursework-text h1 {
     font-size: var(--big-font);
@@ -195,11 +195,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1rem;
 }
 .org-text h1 {
     font-size: var(--big-font);
@@ -220,11 +220,11 @@ section:not(.abt) {
     margin-top: 0rem;
     border-color: rgb(238, 11, 106);
     border-style: solid;
-    border-width: .2rem;
-    border-radius: 3rem;
+    border-width: .15rem;
+    border-radius: 1rem;
     margin-right: 20%;
     margin-left: 20%;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 .fun-text h1 {
     font-size: var(--big-font);
@@ -264,5 +264,8 @@ section:not(.abt) {
 @media only screen and (max-width: 600px) {
     * {
         margin: 10px;
+    }
+    .abt {
+        margin-left: -2% !important;
     }
 }
