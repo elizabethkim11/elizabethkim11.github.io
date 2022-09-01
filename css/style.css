@@ -276,6 +276,9 @@ section:not(.abt) {
         display: flex;
         justify-content: center;
     }
+    .abt-text h2{
+        font-size: 2.5rem;
+    }
     .exp {
         margin-right: 5%;
         margin-left: 5%;
