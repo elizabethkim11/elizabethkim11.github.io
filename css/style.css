@@ -25,7 +25,10 @@ html, body {
 .abt section {
     padding: 4% 20% !important;
 }
-
+.table {
+    display: flex;
+    justify-content: center;
+}
 section:not(.abt) {
     padding: 2% 3%;
 }
