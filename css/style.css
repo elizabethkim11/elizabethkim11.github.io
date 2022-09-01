@@ -57,7 +57,7 @@ section:not(.abt) {
     justify-content: center;
 }
 .abt-text h1 {
-    font-size: var(--big-font);
+    font-size: 2.5rem;
     margin-top: -2rem;
 }
 .abt-text h2 {
