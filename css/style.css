@@ -276,4 +276,32 @@ section:not(.abt) {
         display: flex;
         justify-content: center;
     }
+    .exp {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .proj {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .skills {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .education {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .coursework {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .organizations {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .funstuff {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
