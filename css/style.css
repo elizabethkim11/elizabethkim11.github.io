@@ -52,6 +52,10 @@ section:not(.abt) {
     display: flex;
     justify-content: center;
 }
+.abt {
+    display: flex;
+    justify-content: center;
+}
 .abt-text h1 {
     font-size: var(--big-font);
     margin-top: -2rem;
