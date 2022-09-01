@@ -263,9 +263,9 @@ section:not(.abt) {
 }
 @media only screen and (max-width: 600px) {
     * {
-        margin: 10px;
+        margin: 5px;
     }
     .abt {
-        margin-left: -2% !important;
+        margin-left: -10% !important;
     }
 }
