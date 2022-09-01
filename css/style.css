@@ -261,7 +261,7 @@ section:not(.abt) {
     font-size: 1.25rem;
     text-align: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
     * {
         margin: 5px;
     }
