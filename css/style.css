@@ -274,7 +274,6 @@ section:not(.abt) {
 }
 @media (max-width: 600px) {
     * {
-        margin: 0rem;
         width: fit-content;
         display: flex;
         justify-content: center;
@@ -284,8 +283,8 @@ section:not(.abt) {
         font-size: 1.2rem;
     }
     .exp {
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-right: -20%;
+        margin-left: -20%;
     }
     .proj {
         margin-right: 1%;
