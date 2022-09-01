@@ -272,6 +272,7 @@ section:not(.abt) {
 @media (max-width: 480px) {
     * {
         margin: 0px;
+        width: fit-content;
     }
     .abt {
         margin-left: -10% !important;
