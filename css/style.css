@@ -23,11 +23,11 @@ html, body {
     overflow-x: hidden;
 }
 .abt section {
-    padding: 5rem 20% !important;
+    padding: 4% 20% !important;
 }
 
 section:not(.abt) {
-    padding: 1.5rem 3rem;
+    padding: 2% 3%;
 }
 .social a {
     width: 55px;
