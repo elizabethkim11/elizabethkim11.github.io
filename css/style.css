@@ -317,13 +317,12 @@ section:not(.abt) {
         margin-top: -5rem !important;
         margin-bottom: -23rem;
         transform: scale(.5);
-        margin-right: 40%;
-        /* margin-left: 10%; */
+        margin-right: 10%; 
     }
     .abt-text p {
         margin-top: .5rem !important;
         font-size: 110%;
-        margin-right: 10% !important;
+        margin-right: 15% !important;
     }
     .social {
         margin-top: 3rem;
