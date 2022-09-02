@@ -320,6 +320,8 @@ section:not(.abt) {
     .abt-text p {
         margin-top: .5rem;
         font-size: 110%;
+        margin-right: .05rem !important;
+        margin-left: -3rem;
     }
     .social {
         margin-top: 3rem;
@@ -345,6 +347,9 @@ section:not(.abt) {
     }
     .edu-text h3 {
         font-size: 105% !important;
+    }
+    .edu-text p {
+        font-size: 100% !important;
     }
     .coursework {
         margin-right: 14.5%;
