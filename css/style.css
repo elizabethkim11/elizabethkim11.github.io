@@ -293,7 +293,7 @@ section:not(.abt) {
         /* position: absolute;
         z-index: 2; */
     }
-    section:not(.ends) {
+    section:not(.table) {
         margin-right: 5%;
         margin-left: 5%;
     }
@@ -364,15 +364,11 @@ section:not(.abt) {
     .coursework-text p {
         margin-bottom: .1rem !important;
     }
-    .contactme h1 {
-        margin-right: 20%;
-        margin-left: 20%;
-    }
     .contactme p {
         font-size: 110%;
     }
-    .ends {
+    /* .ends {
         margin-right: 2%;
         margin-left: 2%;
-    }
+    } */
 }
