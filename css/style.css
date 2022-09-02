@@ -103,9 +103,9 @@ section:not(.abt) {
     font-size: 1.1rem;
 }
 .exp-text h3 {
-    margin-top: .5rem;
+    margin-top: .2rem;
     margin-bottom: .7rem;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .exp-text p {
     margin-top: .2rem;
@@ -129,9 +129,9 @@ section:not(.abt) {
     font-size: 1.1rem;
 }
 .proj-text h3 {
-    margin-top: .5rem;
+    margin-top: .2rem;
     margin-bottom: .5rem;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 .proj-text p {
     margin-top: .2rem;
