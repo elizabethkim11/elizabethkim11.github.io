@@ -283,9 +283,9 @@ section:not(.abt) {
     .abt-text h2 {
         font-size: 1.2rem;
     }
-    /* .exp {
-        margin-right: 1%;
-        margin-left: 1%;
+    .exp {
+        margin-right: -20%;
+        margin-left: -20%;
     }
     .proj {
         margin-right: 1%;
@@ -310,5 +310,5 @@ section:not(.abt) {
     .funstuff {
         margin-right: 1%;
         margin-left: 1%;
-    }  */
+    } 
 }
