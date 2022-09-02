@@ -355,7 +355,7 @@ section:not(.abt) {
         margin-left: 26%;
     }
     .edu-text h3 {
-        font-size: 99%
+        font-size: 100% !important;
     }
     .coursework {
         margin-right: 14.5%;
