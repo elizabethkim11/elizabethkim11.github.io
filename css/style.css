@@ -277,6 +277,8 @@ section:not(.abt) {
         width: fit-content;
         display: flex;
         justify-content: center;
+        margin-right: 1%;
+        margin-left: 1%;
     }
     .abt-text h2 {
         font-size: 1.2rem;
