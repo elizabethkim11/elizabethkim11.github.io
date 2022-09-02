@@ -362,10 +362,10 @@ section:not(.abt) {
         margin-left: 20%;
     }
     .contactme p {
-        font-size: 120%;
+        font-size: 110%;
     }
     .ends {
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 2%;
+        margin-left: 2%;
     }
 }
