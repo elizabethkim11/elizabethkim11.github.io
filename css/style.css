@@ -274,7 +274,7 @@ section:not(.abt) {
 }
 @media (max-width: 768px) {
     * {
-        width: fit-content;
+        width: max-content;
         display: flex;
         justify-content: center;
         margin-right: 1%;
