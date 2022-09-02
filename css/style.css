@@ -361,14 +361,14 @@ section:not(.abt) {
         margin-bottom: .1rem !important;
     }
     .contactme h1 {
-        margin-right: 20%;
-        margin-left: 20%;
+        margin-right: 30%;
+        margin-left: 30%;
     }
     .contactme p {
         font-size: 110%;
     }
     .ends {
-        margin-right: 10%;
-        margin-left: 10%;
+        margin-right: 20%;
+        margin-left: 20%;
     }
 }
