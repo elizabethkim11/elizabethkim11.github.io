@@ -289,15 +289,20 @@ section:not(.abt) {
 @media only screen and (max-width: 768px) {
     * {
         width: fit-content;
+        font-size: 95%
         /* position: absolute;
         z-index: 2; */
     }
-    section:not(.abt):not(.skills):not(.education):not(.coursework):not(.contactme) {
+    section:not(.abt) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .abt section {
         margin-right: 5%;
         margin-left: 5%;
     }
     .abt:not(.ebeth) {
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
     .abt-text h2 {
         margin-top: .5rem;
