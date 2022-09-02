@@ -272,7 +272,7 @@ section:not(.abt) {
     font-size: 1.25rem;
     text-align: center;
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     * {
         width: fit-content;
         display: flex;
@@ -308,5 +308,5 @@ section:not(.abt) {
     .funstuff {
         margin-right: 1%;
         margin-left: 1%;
-    } 
-} */
+    }  */
+}
