@@ -313,24 +313,25 @@ section:not(.abt) {
     .ebeth {
         margin-top: 0rem !important;
         margin-bottom: -27rem;
+        transform: scale(.75)
     }
     .abt-text p {
         margin-top: .5rem;
-        font-size: 1rem;
+        font-size: 110%;
     }
     .social {
         margin-top: 5rem;
         margin-bottom: 6rem;
     }
     .social a {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: inline-flex;
         align-items: center;
         justify-content: center;
         background: var(--main-color);
-        font-size: 40px;
+        font-size: 35px;
         color: var(--bg-color);
         margin-right: .4rem;
         margin-bottom: -6rem;
