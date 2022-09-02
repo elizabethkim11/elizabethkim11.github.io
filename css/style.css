@@ -58,14 +58,16 @@ section:not(.abt) {
 .abt {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
 }
 .abt-text h1 {
     font-size: 2.5rem;
-    margin-top: -2rem;
+    margin-top: -10rem;
 }
 .abt-text h2 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 .abt-text h3 {
     font-size: 1.75rem;
@@ -74,6 +76,13 @@ section:not(.abt) {
 .abt-text p {
     font-size: (var(--p-font));
     margin-top: .75rem;
+    margin-bottom: .3rem;
+    margin-right: 25rem;
+}
+.ebeth {
+    margin-left: 28rem;
+    margin-top: 0rem;
+    margin-bottom: -30rem;
 }
 .exp {
     margin-top: -3rem;
@@ -91,15 +100,15 @@ section:not(.abt) {
 }
 .exp-text h2 {
     margin-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .exp-text h3 {
     margin-top: .5rem;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
+    margin-bottom: .7rem;
+    font-size: 1rem;
 }
 .exp-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .proj {
     margin-top: 0rem;
@@ -117,14 +126,15 @@ section:not(.abt) {
 }
 .proj-text h2 {
     margin-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .proj-text h3 {
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1rem;
 }
 .proj-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .skills {
     margin-top: 0rem;
@@ -141,15 +151,15 @@ section:not(.abt) {
     margin-bottom: 1rem;
 }
 .skills-text h2 {
-    margin-top: .5rem;
+    margin-top: .2rem;
     font-size: 1rem;
 }
 .skills-text h3 {
-    margin-top: .5rem;
+    margin-top: .2rem;
     margin-bottom: 1rem;
 }
 .skills-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .education {
     margin-top: 0rem;
@@ -166,16 +176,16 @@ section:not(.abt) {
     margin-bottom: 1rem;
 }
 .edu-text h2 {
-    margin-top: 1rem;
+    margin-top: .5rem;
     font-size: 1.2rem;
 }
 .edu-text h3 {
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .2rem;
     font-size: 1rem;
 }
 .edu-text p {
-    margin-top: .5rem;
+    margin-top: .1rem;
 }
 .coursework {
     margin-top: 0rem;
@@ -193,14 +203,15 @@ section:not(.abt) {
 }
 .coursework-text h2 {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .coursework-text h3 {
     margin-top: .5rem;
     margin-bottom: 1rem;
 }
 .coursework-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
+
 }
 .organizations {
     margin-top: 0rem;
@@ -218,14 +229,16 @@ section:not(.abt) {
 }
 .org-text h2 {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
 }
 .org-text h3 {
     margin-top: .5rem;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 .org-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .funstuff {
     margin-top: 0rem;
@@ -242,15 +255,15 @@ section:not(.abt) {
     margin-bottom: 1rem;
 }
 .fun-text h2 {
-    margin-top: 1rem;
+    margin-top: .8rem;
     font-size: 1.2rem;
 }
 .fun-text h3 {
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
 }
 .fun-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
 }
 .contactme {
     margin-top: 0rem;
@@ -268,47 +281,80 @@ section:not(.abt) {
     text-align: center;
 }
 .contactme-text p {
-    margin-top: .5rem;
+    margin-top: .2rem;
+    margin-bottom: .2rem;
     font-size: 1.25rem;
     text-align: center;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     * {
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        margin-right: 1%;
-        margin-left: 1%;
+        width: fit-content;
+        /* position: absolute;
+        z-index: 2; */
+    }
+    section:not(.abt):not(.skills):not(.education):not(.coursework):not(.contactme) {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .abt:not(.ebeth) {
+        margin-left: 1rem;
     }
     .abt-text h2 {
+        margin-top: .5rem;
+        font-size: 2.5rem;
+    }
+    .abt-text h1 {
+        margin-bottom: 3rem;
+    }
+    .ebeth {
+        margin-top: 0rem !important;
+        margin-left: 20rem;
+        margin-top: -10rem;
+        margin-bottom: -27rem;
+    }
+    .abt-text p {
+        margin-top: .5rem;
+        margin-left: 1.8rem;
+        margin-right: .2rem;
         font-size: 1.2rem;
     }
-    .exp {
-        margin-right: -20%;
-        margin-left: -20%;
+    .social {
+        margin-top: 5rem;
+        margin-bottom: 6rem;
     }
-    .proj {
-        margin-right: 1%;
-        margin-left: 1%;
+    .social a {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--main-color);
+        font-size: 45px;
+        color: var(--bg-color);
+        margin-right: .4rem;
+        margin-bottom: -6rem;
+        margin-top: -1rem;
     }
     .skills {
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-right: 20%;
+        margin-left: 20%;
     }
     .education {
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-right: 26%;
+        margin-left: 26%;
     }
     .coursework {
-        margin-right: 1%;
-        margin-left: 1%;
+        margin-right: 14.5%;
+        margin-left: 14.5%;
     }
-    .organizations {
-        margin-right: 1%;
-        margin-left: 1%;
+    .ends {
+        margin-left: 28%;
     }
-    .funstuff {
-        margin-right: 1%;
-        margin-left: 1%;
-    } 
+    .contactme {
+        text-align: center !important;
+    }
+    .contactme h1 {
+        margin-left: 30%;
+    }
 }
