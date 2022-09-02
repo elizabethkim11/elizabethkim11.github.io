@@ -310,6 +310,9 @@ section:not(.abt) {
         margin-bottom: .2rem;
         font-size: 150% !important;
     }
+    .abt-text {
+        margin-left: -.4rem !important;
+    }
     .ebeth {
         margin-top: -5rem !important;
         margin-bottom: -23rem;
@@ -318,14 +321,13 @@ section:not(.abt) {
         margin-left: 30%;
     }
     .abt-text p {
-        margin-top: .5rem;
+        margin-top: .5rem !important;
         font-size: 110%;
         margin-right: .05rem !important;
-        margin-left: -3rem;
     }
     .social {
         margin-top: 3rem;
-        margin-bottom: 6rem;
+        margin-bottom: 3rem;
     }
     .social a {
         width: 50px;
