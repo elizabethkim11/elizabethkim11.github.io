@@ -300,8 +300,8 @@ img {
         margin-left: 5%;
     }
     .abt-text {
-        margin-right: -4rem;
-        margin-left: 22rem;
+        margin-right: -3rem;
+        margin-left: 23rem;
     }
     .abt-text h2 {
         margin-top: 0rem;
@@ -317,10 +317,10 @@ img {
         font-size: 150% !important;
     }
     .ebeth {
-        margin-top: -5rem !important;
-        margin-bottom: -23rem;
+        margin-top: -4rem !important;
+        margin-bottom: -22.5rem;
         margin-right: 18rem;
-        transform: scale(.5);
+        transform: scale(.45);
     }
     .abt-text p {
         margin-top: .5rem !important;
