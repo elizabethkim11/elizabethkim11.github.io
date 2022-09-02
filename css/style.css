@@ -311,7 +311,7 @@ section:not(.abt) {
         font-size: 150% !important;
     }
     .ebeth {
-        margin-top: 0rem !important;
+        margin-top: -5rem !important;
         margin-bottom: -23rem;
         transform: scale(.5);
         margin-right: 30%;
