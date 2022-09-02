@@ -297,13 +297,13 @@ section:not(.abt) {
         margin-left: 5%;
     }
     .abt-text {
-        margin-right: -3rem;
+        margin-right: -5rem;
         margin-left: 20rem;
     }
     .abt-text h2 {
         margin-top: 0rem;
         font-size: 2.5rem;
-        font-size: 200% !important;
+        font-size: 190% !important;
     }
     .abt-text h1 {
         margin-bottom: 1rem;
