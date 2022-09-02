@@ -297,8 +297,8 @@ section:not(.abt) {
         margin-left: 5%;
     }
     .abt-text {
-        margin-right: 0% !important;
-        margin-left: 13% !important;
+        margin-right: -10rem;
+        margin-left: 16rem;
     }
     .abt-text h2 {
         margin-top: 0rem;
@@ -316,13 +316,12 @@ section:not(.abt) {
     .ebeth {
         margin-top: -5rem !important;
         margin-bottom: -23rem;
+        margin-right: 10rem;
         transform: scale(.5);
-        margin-right: 10%; 
     }
     .abt-text p {
         margin-top: .5rem !important;
         font-size: 110%;
-        margin-right: 15% !important;
     }
     .social {
         margin-top: 3rem;
