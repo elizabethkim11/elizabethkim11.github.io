@@ -34,6 +34,7 @@ section:not(.table) {
 }
 img {
     border-radius: 1.5rem;
+    max-width: 100%;
 }
 .social a {
     width: 55px;
@@ -62,11 +63,9 @@ img {
     display: flex;
     justify-content: center;
     margin-bottom: 5rem;
-    margin-left: 12rem;
 }
 .abt-text h1 {
     font-size: 2.5rem;
-    margin-top: -10rem;
 }
 .abt-text h2 {
     font-size: 3rem;
@@ -78,19 +77,18 @@ img {
 }
 .abt-text p {
     font-size: (var(--p-font));
-    margin-top: .75rem;
+    margin-top: 1rem;
     margin-bottom: .3rem;
-    /* margin-right: 22rem; */
-    /* margin-left: 5rem; */
-    width: 47%;
+    /* margin-right: 22rem;  */
+    /* margin-left: 5rem;
+    width: 47%; */
 }
 .ebeth {
     /* margin-left: 28rem; */
-    margin-top: 0rem;
-    margin-bottom: -30rem;
-    margin-left: 35rem;
-    margin-right: 10%;
-    width: 100%;
+    margin-top: 2rem;
+    /* margin-bottom: -30rem;
+    margin-left: 43rem;
+    margin-right: 10rem; */
 }
 .exp {
     margin-top: -3rem;
@@ -300,13 +298,13 @@ img {
         /* position: absolute;
         z-index: 2; */
     }
-    section:not(.table) {
+    /* section:not(.table) {
         margin-right: 5%;
         margin-left: 5%;
-    }
+    } */
     .abt-text {
-        margin-right: -1.5rem;
-        margin-left: 22.5rem;
+        /* margin-right: -1.5rem;
+        margin-left: 22.5rem; */
     }
     .abt-text h2 {
         margin-top: 0rem;
@@ -323,9 +321,9 @@ img {
     }
     .ebeth {
         margin-top: -4rem !important;
-        margin-bottom: -22.5rem;
-        margin-right: 17rem;
-        transform: scale(.45);
+        /* margin-bottom: -22.5rem;
+        margin-right: 17rem; */
+        transform: scale(.5);
     }
     .abt-text p {
         margin-top: .5rem !important;
