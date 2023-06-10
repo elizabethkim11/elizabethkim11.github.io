@@ -1,0 +1,357 @@
+*{
+    padding: 10;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+:root { /* root pseudoclass matches root element of tree representing document (html doc) */
+    --bg-color: #ffffff; /* -- indicates custom properties */
+    --text-color: #000;
+    --second-color: #a09dab;
+    --main-color: rgb(238, 11, 106);
+    --big-font: 1.75rem;
+    --p-font: 1.1rem;
+}
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* .abt section {
+    padding: 4% 20% !important;
+} */
+/* .table {
+    display: flex;
+    justify-content: center;
+} */
+section:not(.table) {
+    padding: 2% 3%;
+}
+img {
+    border-radius: 1.5rem;
+    max-width: 100%;
+}
+.social a {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    font-size: 35px;
+    color: var(--bg-color);
+    margin-right: .4rem;
+    margin-bottom: 1rem;
+}
+.social a:hover {
+    transform: scale(1.1);
+    background: var(--main-color);
+    transition: .5s;
+}
+.ends {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.abt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    padding: 2rem;
+}
+.abt-text h1 {
+    font-size: 2.5rem;
+}
+.abt-text h2 {
+    font-size: 3rem;
+    margin-bottom: .5rem;
+}
+.abt-text h3 {
+    font-size: 1.75rem;
+    margin-top: 1.75rem;
+}
+.abt-text p {
+    font-size: (var(--p-font));
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+    /* margin-left: 5rem;
+    width: 47%; */
+}
+.ebeth {
+    /* margin-left: 28rem; */
+    margin-top: 2rem;
+    padding: 2rem;
+    /* margin-bottom: -30rem;
+    margin-left: 43rem;
+    margin-right: 10rem; */
+}
+.exp {
+    margin-top: -3rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.exp-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.exp-text h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.exp-text h3 {
+    margin-top: .2rem;
+    margin-bottom: .7rem;
+    font-size: .9rem;
+}
+.exp-text p {
+    margin-top: .2rem;
+}
+.proj {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.proj-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.proj-text h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.proj-text h3 {
+    margin-top: .2rem;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+.proj-text p {
+    margin-top: .2rem;
+}
+.skills {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.skills-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.skills-text h2 {
+    margin-top: .2rem;
+    font-size: 1rem;
+}
+.skills-text h3 {
+    margin-top: .2rem;
+    margin-bottom: 1rem;
+}
+.skills-text p {
+    margin-top: .2rem;
+}
+.education {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.edu-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.edu-text h2 {
+    margin-top: .5rem;
+    font-size: 1.2rem;
+}
+.edu-text h3 {
+    margin-top: .5rem;
+    margin-bottom: .2rem;
+    font-size: 1rem;
+}
+.edu-text p {
+    margin-top: .1rem;
+}
+.coursework {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.coursework-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.coursework-text h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+.coursework-text h3 {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+.coursework-text p {
+    margin-top: .2rem;
+
+}
+.organizations {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 1rem;
+}
+.org-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.org-text h2 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+.org-text h3 {
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.org-text p {
+    margin-top: .2rem;
+}
+.funstuff {
+    margin-top: 0rem;
+    border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .15rem;
+    border-radius: .7rem;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 2rem;
+}
+.fun-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+}
+.fun-text h2 {
+    margin-top: .8rem;
+    font-size: 1.2rem;
+}
+.fun-text h3 {
+    margin-top: .5rem;
+    margin-bottom: 1.1rem;
+}
+.fun-text p {
+    margin-top: .2rem;
+}
+.contactme {
+    margin-top: 0rem;
+    /* border-color: rgb(238, 11, 106);
+    border-style: solid;
+    border-width: .2rem;
+    border-radius: 5rem; */
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 2.5rem;
+}
+.contactme-text h1 {
+    font-size: var(--big-font);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.contactme-text p {
+    margin-top: .2rem;
+    margin-bottom: .2rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    * {
+        font-size: 95%;
+        /* position: absolute;
+        z-index: 2; */
+    }
+    /* section:not(.abt-text, .ebeth) {
+        margin-right: 5%;
+        margin-left: 5%;
+    } */
+    .abt-text h2 {
+        margin-top: 0rem;
+        font-size: 2.5rem;
+        font-size: 170% !important;
+    }
+    .abt-text h1 {
+        margin-bottom: 1rem;
+        font-size: 200% !important;
+    }
+    .abt-text h3 {
+        margin-bottom: 0rem;
+        font-size: 150% !important;
+    }
+    .ebeth {
+        /* margin-bottom: -22.5rem;
+        margin-right: 17rem; */
+        transform: scale(.6);
+        padding: 0rem;
+    }
+    .abt-text p {
+        margin-top: .5rem !important;
+        font-size: 110%;
+    }
+    .social {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .social a {
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        margin-right: .4rem;
+        margin-bottom: -6rem;
+        margin-top: -1rem;
+    }
+    .skills-text h2 {
+        font-size: 100% !important;
+    }
+    .edu-text h3 {
+        font-size: 105% !important;
+    }
+    .edu-text p {
+        font-size: 100% !important;
+    }
+    .coursework-text p {
+        margin-bottom: .1rem !important;
+    }
+    .contactme p {
+        font-size: 110%;
+        margin-bottom: -.2rem;
+    }
+}
