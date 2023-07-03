@@ -15,21 +15,21 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  color: white;
+  color: black;
 }
 
 h1 {
   font-size: 36px;
   text-align: center;
-  margin-bottom: 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
 }
 
 h2 {
   font-size: 25px;
   text-align: center;
   margin-bottom: 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
 }
 
 img {
