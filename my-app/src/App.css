@@ -321,5 +321,129 @@ section {
   margin-top: 3rem;
 }
 
-/* Additional styling for education, experience, extracurriculars, and coursework sections */
-/* Add your own styles here */
+/* Media queries for tablet screens */
+@media (min-width: 768px) {
+  .App-header {
+    height: 100vh;
+  }
+
+  .intro-section {
+    max-height: none;
+    min-height: 100vh;
+  }
+
+  .intro-content {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 0;
+  }
+
+  .top-container {
+    flex-direction: row;
+    margin-bottom: 4rem;
+  }
+
+  .headshot-container {
+    margin-right: 4rem;
+  }
+
+  .headshot {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .circle,
+  .headshot-img {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-text-container {
+    margin-left: 4rem;
+    text-align: left;
+  }
+
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .typewriter-container {
+    margin-top: 0;
+  }
+
+  .typewriter {
+    display: inline;
+  }
+
+  .section-container {
+    padding: 0 2rem;
+  }
+
+  .section-title {
+    font-size: 3em;
+  }
+}
+
+/* Media queries for mobile screens */
+@media (max-width: 767px) {
+  .intro-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-container {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .headshot-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .headshot {
+    position: static;
+    width: 100%;
+    height: auto;
+  }
+
+  .circle,
+  .headshot-img {
+    position: static;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .intro-text-container {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .intro-text {
+    font-size: 1.4rem;
+  }
+
+  .typewriter-container {
+    margin-top: 0;
+  }
+
+  .typewriter {
+    display: inline;
+  }
+
+  .section-container {
+    padding: 0 1rem;
+  }
+
+  .section-title {
+    font-size: 2.5em;
+  }
+}
