@@ -449,3 +449,243 @@ section {
     font-size: 0.7rem;
   }
 }
+
+/* Media queries for tablet devices */
+@media (max-width: 820px) {
+  /* Adjust the font sizes as needed */
+  .intro-name {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+
+  .status {
+    font-size: 1.1rem;
+  }
+
+  .extracurriculars-section .description {
+    margin-top: -0.5rem;
+  }
+
+  .degree,
+  .coursework {
+    font-size: 0.8rem;
+  }
+
+  .intro-content {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  .experience-section,
+  .education-section,
+  .extracurriculars-section {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  .experience-section .description,
+  .extracurriculars-section .description {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .school {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .subject-title {
+    font-size: 0.9rem;
+  }
+
+  .course-sublist {
+    font-size: 0.8rem;
+  }
+
+  .date {
+    margin-top: -0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .blurb {
+    font-size: 1.4rem;
+  }
+
+  .footer-text {
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .blurb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .intro-content {
+    flex-direction: column;
+  }
+
+  .headshot-container {
+    margin-top: -5rem;
+    margin-left: 2rem;
+    position: absolute;
+  }
+
+  .intro-text-container {
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 15rem;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .blurb-container {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+
+  .more-about-me {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .social-button {
+    font-size: 1.3rem;
+  }
+}
+
+/* Media queries for tablet devices */
+@media (max-width: 912px) {
+  /* Adjust the font sizes as needed */
+
+  .intro-name {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+
+  .status {
+    font-size: 1.1rem;
+  }
+
+  .extracurriculars-section .description {
+    margin-top: -0.5rem;
+  }
+
+  .degree,
+  .coursework {
+    font-size: 0.8rem;
+  }
+
+  .experience-section,
+  .education-section,
+  .extracurriculars-section {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  .experience-section .description,
+  .extracurriculars-section .description {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .school {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .subject-title {
+    font-size: 0.9rem;
+  }
+
+  .course-sublist {
+    font-size: 0.8rem;
+  }
+
+  .date {
+    margin-top: -0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .blurb {
+    font-size: 1.4rem;
+  }
+
+  .footer-text {
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .blurb-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .intro-content {
+    flex-direction: column;
+  }
+
+  .headshot-container {
+    margin-top: -5rem;
+    margin-left: 2rem;
+    position: absolute;
+  }
+
+  .intro-text-container {
+    margin-right: 2rem;
+    text-align: center;
+    margin-top: 15rem;
+  }
+
+  .typewriter {
+    font-size: 1.5rem;
+  }
+
+  .blurb-container {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+
+  .more-about-me {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+
+  .social-button {
+    font-size: 1.3rem;
+  }
+}
