@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import styles from "./App.css";
 
 const Typewriter = ({ texts }) => {
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -43,14 +44,7 @@ const Typewriter = ({ texts }) => {
   ]);
 
   return (
-    <h1
-      style={{
-        color: "#333",
-        fontWeight: "500",
-        fontSize: "1.5rem",
-        textAlign: "left",
-      }}
-    >
+    <h1 className="typewriter">
       I love {currentText}
       <span className="cursor" />
     </h1>

@@ -28,7 +28,9 @@ function Footer() {
           <FaFileAlt className="footer-icon" />
         </a>
       </div>
-      <p className="footer-text">Made with React and 🫶🏼 by Elizabeth Kim</p>
+      <p className="footer-text">
+        Made with React and 🫶🏼 &nbsp;by Elizabeth Kim
+      </p>
       <p
         className="footer-text"
         style={{ fontSize: ".9rem", fontStyle: "italic" }}

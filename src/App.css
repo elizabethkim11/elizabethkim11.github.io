@@ -8,6 +8,7 @@ body {
 
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-header {
@@ -103,8 +104,10 @@ body {
 }
 
 .typewriter {
-  display: inline-block;
-  overflow: hidden;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .typing {
@@ -321,129 +324,128 @@ section {
   margin-top: 3rem;
 }
 
-/* Media queries for tablet screens */
-@media (min-width: 768px) {
-  .App-header {
-    height: 100vh;
-  }
-
-  .intro-section {
-    max-height: none;
-    min-height: 100vh;
-  }
-
-  .intro-content {
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-bottom: 0;
-  }
-
-  .top-container {
-    flex-direction: row;
-    margin-bottom: 4rem;
-  }
-
-  .headshot-container {
-    margin-right: 4rem;
-  }
-
-  .headshot {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
-
-  .circle,
-  .headshot-img {
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    height: auto;
-  }
-
-  .intro-text-container {
-    margin-left: 4rem;
-    text-align: left;
+/* Media queries for smaller font sizes on mobile devices */
+@media (max-width: 768px) {
+  /* Adjust the font sizes as needed */
+  .intro-name {
+    font-size: 1.6rem;
   }
 
   .intro-text {
-    font-size: 2rem;
-  }
-
-  .typewriter-container {
-    margin-top: 0;
-  }
-
-  .typewriter {
-    display: inline;
-  }
-
-  .section-container {
-    padding: 0 2rem;
+    font-size: 1.2rem;
   }
 
   .section-title {
-    font-size: 3em;
+    font-size: 1.5rem;
+    margin-top: -1rem;
   }
-}
 
-/* Media queries for mobile screens */
-@media (max-width: 767px) {
+  .status {
+    font-size: 1.1rem;
+  }
+
+  .extracurriculars-section .description {
+    margin-top: -0.5rem;
+  }
+
+  .degree,
+  .coursework {
+    font-size: 0.8rem;
+  }
+
   .intro-content {
-    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .experience-section,
+  .education-section,
+  .extracurriculars-section {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  .experience-section .description,
+  .extracurriculars-section .description {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .school {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .subject-title {
+    font-size: 0.9rem;
+  }
+
+  .course-sublist {
+    font-size: 0.8rem;
+  }
+
+  .date {
+    margin-top: -0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .position {
+    font-size: 1rem;
+  }
+
+  .blurb {
+    font-size: 0.85rem;
+  }
+
+  .footer-text {
+    font-size: 0.85rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .blurb-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    width: 50%;
   }
 
-  .top-container {
+  .intro-content {
     flex-direction: column;
-    margin-bottom: 2rem;
   }
 
   .headshot-container {
-    margin-right: 0;
-    margin-bottom: 2rem;
-  }
-
-  .headshot {
-    position: static;
-    width: 100%;
-    height: auto;
-  }
-
-  .circle,
-  .headshot-img {
-    position: static;
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    height: auto;
+    margin-top: -5rem;
+    margin-left: 2rem;
+    position: absolute;
   }
 
   .intro-text-container {
-    margin-left: 0;
+    margin-right: 5rem;
     text-align: center;
-  }
-
-  .intro-text {
-    font-size: 1.4rem;
-  }
-
-  .typewriter-container {
-    margin-top: 0;
+    margin-top: 15rem;
   }
 
   .typewriter {
-    display: inline;
+    font-size: 0.9rem;
   }
 
-  .section-container {
-    padding: 0 1rem;
+  .blurb-container {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
   }
 
-  .section-title {
-    font-size: 2.5em;
+  .more-about-me {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+  }
+
+  .social-button {
+    font-size: 0.7rem;
   }
 }

@@ -206,7 +206,7 @@ const App = () => {
                   style={{ cursor: "pointer" }}
                   id="computerScienceTitle"
                 >
-                  <strong>👩🏻‍💻 Computer Science</strong>
+                  <strong>👩🏻‍💻 &nbsp;Computer Science</strong>
                 </span>
               </p>
               {isComputerScienceExpanded && (
@@ -251,7 +251,9 @@ const App = () => {
             <li>
               <p onClick={toggleMathematics}>
                 <span
-                  className={isMathematicsExpanded ? "expanded" : ""}
+                  className={`subject-title ${
+                    isMathematicsExpanded ? "expanded" : ""
+                  }`}
                   onMouseEnter={() => {
                     document.getElementById(
                       "mathematicsTitle"
@@ -265,7 +267,7 @@ const App = () => {
                   style={{ cursor: "pointer" }}
                   id="mathematicsTitle"
                 >
-                  <strong>🧮 Mathematics</strong>
+                  <strong>🧮 &nbsp;Mathematics</strong>
                 </span>
               </p>
               {isMathematicsExpanded && (
@@ -289,7 +291,9 @@ const App = () => {
             <li>
               <p onClick={toggleLinguistics}>
                 <span
-                  className={isLinguisticsExpanded ? "expanded" : ""}
+                  className={`subject-title ${
+                    isLinguisticsExpanded ? "expanded" : ""
+                  }`}
                   onMouseEnter={() => {
                     document.getElementById(
                       "linguisticsTitle"
@@ -303,7 +307,7 @@ const App = () => {
                   style={{ cursor: "pointer" }}
                   id="linguisticsTitle"
                 >
-                  <strong>🗣️ Linguistics</strong>
+                  <strong>🗣️ &nbsp;Linguistics</strong>
                 </span>
               </p>
               {isLinguisticsExpanded && (
@@ -341,7 +345,9 @@ const App = () => {
             <li>
               <p onClick={toggleMiscellaneous}>
                 <span
-                  className={isMiscellaneousExpanded ? "expanded" : ""}
+                  className={`subject-title ${
+                    isMiscellaneousExpanded ? "expanded" : ""
+                  }`}
                   onMouseEnter={() => {
                     document.getElementById(
                       "miscellaneousTitle"
@@ -355,7 +361,7 @@ const App = () => {
                   style={{ cursor: "pointer" }}
                   id="miscellaneousTitle"
                 >
-                  <strong>💗 Miscellaneous</strong>
+                  <strong>💗 &nbsp;Miscellaneous</strong>
                 </span>
               </p>
               {isMiscellaneousExpanded && (
